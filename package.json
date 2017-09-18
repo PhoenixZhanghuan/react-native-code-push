@@ -1,0 +1,186 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-code-push@^1.16.1-beta",
+        "scope": null,
+        "escapedName": "react-native-code-push",
+        "name": "react-native-code-push",
+        "rawSpec": "^1.16.1-beta",
+        "spec": ">=1.16.1-beta <2.0.0",
+        "type": "range"
+      },
+      "/Users/zhanghuan/ReactNativeProject/rcshop-onreact"
+    ]
+  ],
+  "_cnpm_publish_time": 1480730779404,
+  "_from": "react-native-code-push@>=1.16.1-beta <2.0.0",
+  "_id": "react-native-code-push@1.16.1-beta",
+  "_inCache": true,
+  "_location": "/react-native-code-push",
+  "_nodeVersion": "7.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-code-push-1.16.1-beta.tgz_1480730773026_0.8139105322770774"
+  },
+  "_npmUser": {
+    "name": "silhouettes",
+    "email": "rich@rkhua.com"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {
+    "ansi-escapes": "1.4.0",
+    "chalk": "1.1.3",
+    "cli-cursor": "1.0.2",
+    "cli-width": "2.1.0",
+    "external-editor": "1.1.1",
+    "figures": "1.7.0",
+    "is-promise": "2.1.0",
+    "pinkie-promise": "2.0.1",
+    "rx": "4.1.0",
+    "string-width": "1.0.2",
+    "strip-ansi": "3.0.1",
+    "through": "2.3.8"
+  },
+  "_requested": {
+    "raw": "react-native-code-push@^1.16.1-beta",
+    "scope": null,
+    "escapedName": "react-native-code-push",
+    "name": "react-native-code-push",
+    "rawSpec": "^1.16.1-beta",
+    "spec": ">=1.16.1-beta <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-code-push/download/react-native-code-push-1.16.1-beta.tgz",
+  "_shasum": "7f06dc7209a241c16e7586fad3ebb83709527c7a",
+  "_shrinkwrap": null,
+  "_spec": "react-native-code-push@^1.16.1-beta",
+  "_where": "/Users/zhanghuan/ReactNativeProject/rcshop-onreact",
+  "author": {
+    "name": "Microsoft Corporation"
+  },
+  "bugs": {
+    "url": "https://github.com/Microsoft/react-native-code-push/issues"
+  },
+  "dependencies": {
+    "code-push": "1.8.0-beta",
+    "glob": "^5.0.15",
+    "inquirer": "1.1.2",
+    "plist": "1.2.0"
+  },
+  "description": "React Native plugin for the CodePush service",
+  "devDependencies": {
+    "archiver": "latest",
+    "body-parser": "latest",
+    "code-push-plugin-testing-framework": "file:./code-push-plugin-testing-framework",
+    "del": "latest",
+    "express": "latest",
+    "gulp-insert": "latest",
+    "gulp-tslint": "latest",
+    "gulp-typescript": "2.12.2",
+    "mkdirp": "latest",
+    "q": "^1.4.1",
+    "run-sequence": "latest"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "7f06dc7209a241c16e7586fad3ebb83709527c7a",
+    "size": 25663364,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/react-native-code-push/download/react-native-code-push-1.16.1-beta.tgz"
+  },
+  "gitHead": "e39ade09f53470bb7eef89a347435ac1689ecb8f",
+  "homepage": "https://microsoft.github.io/code-push",
+  "keywords": [
+    "react-native",
+    "code",
+    "push"
+  ],
+  "license": "MIT",
+  "main": "CodePush.js",
+  "maintainers": [
+    {
+      "name": "axemclion",
+      "email": "code@r.nparashuram.com"
+    },
+    {
+      "name": "bokang",
+      "email": "buptkang@gmail.com"
+    },
+    {
+      "name": "bretjohnson",
+      "email": "bret.johnson@microsoft.com"
+    },
+    {
+      "name": "geof90",
+      "email": "kogoh@microsoft.com"
+    },
+    {
+      "name": "kotikov.vladimir",
+      "email": "kotikov.vladimir@gmail.com"
+    },
+    {
+      "name": "lostintangent",
+      "email": "joncart@outlook.com"
+    },
+    {
+      "name": "maximpop",
+      "email": "maximpop@microsoft.com"
+    },
+    {
+      "name": "rub8n",
+      "email": "rios.r@live.com"
+    },
+    {
+      "name": "ryanjsalva",
+      "email": "ryanjsalva@gmail.com"
+    },
+    {
+      "name": "shishirx34",
+      "email": "shishir.f22@gmail.com"
+    },
+    {
+      "name": "silhouettes",
+      "email": "rich@rkhua.com"
+    },
+    {
+      "name": "vsmobile",
+      "email": "vscordovatools-admin@microsoft.com"
+    }
+  ],
+  "name": "react-native-code-push",
+  "optionalDependencies": {},
+  "publish_time": 1480730779404,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/react-native-code-push.git"
+  },
+  "rnpm": {
+    "android": {
+      "packageInstance": "new CodePush(${androidDeploymentKey}, getApplicationContext(), BuildConfig.DEBUG)"
+    },
+    "ios": {
+      "sharedLibraries": [
+        "libz"
+      ]
+    },
+    "params": [
+      {
+        "type": "input",
+        "name": "androidDeploymentKey",
+        "message": "What is your CodePush deployment key for Android (hit <ENTER> to ignore)"
+      }
+    ],
+    "commands": {
+      "postlink": "node node_modules/react-native-code-push/scripts/postlink/run"
+    }
+  },
+  "scripts": {},
+  "typings": "typings/react-native-code-push.d.ts",
+  "version": "1.16.1-beta"
+}
